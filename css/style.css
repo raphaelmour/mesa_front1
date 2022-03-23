@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container p {
+    background-color: #1CD1B0;
+    height: 38px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.container h1 {
+    background-color: #00669F;
+    height: 101px;
+    padding: 28px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.cards {
+    display: inline-block;
+    width: 500px;
+}
+
+.card-1, .card-2 {
+    width: 374px;
+    margin: 100px 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 15px;
+}
+.batman img {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 56%;
+    left: 120px;
+   
+}
+.arlequina img {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 56%;
+    left: 120px;
+   
+}
+.texto h2 {
+    padding-top: 90px;
+    text-align: center;
+    color: #000000;
+    font-weight: normal;
+}
+
+.texto p {
+   
+    text-align: justify;
+    font-size: 16px;
+    color: #333333;
+    padding: 36px;
+}
+.botao {
+    background-color: #00669F;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    position: relative;
+    left: 35%;
+}
+.botao h2 {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: #F3F3F3;
+    font-weight: normal;
+}
+
+footer {
+    background-color: #00669F;
+    margin-top: 100px;
+    padding: 16px;
+    color: #FFF9F9;
+    font-size: 16px;
+}
